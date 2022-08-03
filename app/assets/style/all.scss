@@ -1,23 +1,28 @@
-$color: #00cc99;
+@import "./variable";
+@import "./reset";
+@import "./layout";    
+@import "./index";
+@import "./FAQ";
 
-.header {
-  height: 200px;
-  background-color: #00cc99;
+.mr4{
+    margin-right:32px;
 }
-
-.footer {
-  height: 200px;
-  background-color: #00cc99;
+.mr6{
+    margin-right:48px;
 }
-
-.box {
-  width: 100px;
-  height: 100px;
-  background-color: red;
-  display: flex;
-  transition: all 0.5s;
-  &:hover {
-    width: 200px;
-    background-color: $color;
+.mr8{
+    margin-right: 64px;
   }
+
+.pt6{
+    padding-top: 48px;
+}
+.pb4{
+    padding-bottom: 32px;
+}
+
+.container{
+    max-width: 1320px;
+    margin:0 auto;
+    padding:0 12px;
 }

@@ -10,15 +10,64 @@
 </head>
 
 <body>
-  <header class="header">
-    這是 header
+  <header>
+    <div class="container">
+      <div class="menu">
+        <div class="menu_logo">
+          <a href="index.html">
+            <img src="./assets/images/logo-white.png" alt="logo">
+          </a>
+        </div>
+        <nav class="navitem">
+          <ul>
+            <li class="mr8"><a href="#">系列鏡框</a></li>
+            <li class="mr8"><a href="#">門市據點</a></li>
+            <li class="mr8"><a href="#">部落格</a></li>
+            <li><a href="#">常見問題</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
   </header>
 
   <%- contents %>
 
-  <footer class="footer">
-    footer
+  <footer>
+    <div class="container">
+      <div class="footer_menu">
+        <nav class="footer_navitem">  
+          <ul>
+            <li class="mr6"><a href="#">首頁</a></li>
+            <li class="mr6"><a href="#">系列鏡框</a></li>
+            <li class="mr6"><a href="#">門市據點</a></li>
+            <li class="mr6"><a href="#">部落格</a></li>
+            <li><a href="#">常見問題</a></li>
+          </ul>
+        </nav>
+        <ul class="footer_logo">
+          <li class="mr4"><a href="#"><img src="./assets/images/ic-social-fb.png" alt="facebook"></a></li>
+          <li class="mr4"><a href="#"><img src="./assets/images/ic_social_ig.png" alt="ig"></a></li>
+          <li><a href="#"><img src="./assets/images/ic_social_line.png" alt="line"></a></li>
+        </ul>
+      </div>
+      <div class="footer_content">
+        <img src="./assets/images/home-section2-3.png" alt="Phoneicon">
+        <p>0800-000-000</p>
+        <br>
+        <img src="./assets/images/home-section2-3.png" alt="Mailicon">
+        <p>glasses@business.com</p>
+      </div>
+      <div class="footer_copyright">
+        <div> 
+          <p>Copyright © 2020 Glasses.All rights reserved.</p>
+        </div>
+        <div class="other">  
+          <p>隱私權政策</p>
+          <p>服務條款</p>
+        </div>
+    </div>
   </footer>
+
   <script src="./assets/js/vendors.js"></script>
   <script src="./assets/js/all.js"></script>
 </body>
