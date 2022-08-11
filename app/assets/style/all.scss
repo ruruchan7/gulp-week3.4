@@ -3,26 +3,4 @@
 @import "./layout";    
 @import "./index";
 @import "./FAQ";
-
-.mr4{
-    margin-right:32px;
-}
-.mr6{
-    margin-right:48px;
-}
-.mr8{
-    margin-right: 64px;
-  }
-
-.pt6{
-    padding-top: 48px;
-}
-.pb4{
-    padding-bottom: 32px;
-}
-
-.container{
-    max-width: 1320px;
-    margin:0 auto;
-    padding:0 12px;
-}
+@import "./base";

@@ -1,0 +1,65 @@
+.mr1{
+  margin-bottom: 8px;
+}
+.mr3{
+  margin-right:24px;
+}
+.mr4{
+  margin-right:32px;
+}
+.mr6{
+  margin-right:48px;
+}
+.mr8{
+  margin-right: 64px;
+}
+.mr9{
+  margin-bottom: 72px;
+}
+.mb3{
+  margin-bottom: 24px;
+}
+.mb6{
+  margin-bottom: 49px;
+}
+.pt6{
+  padding-top: 48px;
+}
+.pb4{
+  padding-bottom: 32px;
+}
+
+.pd_css{
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+img{
+  max-width:100%;
+  height:auto;
+}
+
+a{
+  text-decoration: none;
+}
+
+.container{
+  max-width: 1320px;
+  margin:0 auto;
+  padding:0 12px;
+}
+
+
+//RWD
+
+@media (max-width: 720px) {
+  .container{
+    max-width: 720px; 
+  }
+}
+//手機
+@media (max-width: 375px) {
+  .container{
+    max-width: 375px; 
+  }
+}
