@@ -20,7 +20,17 @@ header {
 }
 .navitem ul{
     display: flex;
+    @include mobile() {
+      max-height: 0;
+      overflow: hidden;
+      position: absolute;
+      top: 80px;
+      left: 0;
+      right: 0;
+      transition: 0.5s ease;
+    }
 }
+
 .navitem a{
     font-size: 20px;
     line-height: 1.5;
@@ -40,6 +50,18 @@ footer {
   justify-content: space-between;
   align-items: center;  
   padding-top: 48px;
+}
+
+.footer_navitem{
+  @include mobile() {
+    max-height: 0;
+    overflow: hidden;
+    position: absolute;
+    top: 80px;
+    left: 0;
+    right: 0;
+    transition: 0.5s ease;
+  }
 }
 
 .footer_navitem a{
@@ -62,12 +84,14 @@ footer {
     font-size: 36px;
     line-height: 1.5;
     color:white;
+    @include mobile(){
+      font-size: 16px;
+    }
   }
   img{
     width: 36px;
     height:36px;
     margin-right: 22px;
-
   }
 }
 
@@ -80,7 +104,15 @@ footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  .other{
-    display:flex;
+
+  @include mobile() {
+    font-size: 16px;
+    display: block;
+   }
+
+  li a{
+    text-decoration:none ;
+    color:white;
   }
+  
 }
