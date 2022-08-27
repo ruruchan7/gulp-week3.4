@@ -1,0 +1,18 @@
+.qna{
+  padding-top: 80px;
+  padding-bottom: 80px;
+  h2{
+    @include mobile() {
+      font-size: 24px;
+  }
+  }
+  .qna-title{
+    border-left: 8px solid #9F1213;
+    padding-left: 16px;
+  }
+  li{
+    @include mobile() {
+      margin-bottom: 24px;
+  }
+  }
+}

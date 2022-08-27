@@ -217,9 +217,10 @@
   }
   ul{
     display: flex;
-    justify-content: space-between;
+
     @include pad(){
       flex-wrap: wrap;
+      justify-content: center;
     }
   }
     li{
@@ -231,10 +232,11 @@
       @include pad(){
         width:50%;
         margin-right:0px;
+        margin-bottom: 16px;
       }
       @include mobile(){
         width:100%;
-        margin-bottom: 16px;
+        
       }
     }
   p{
@@ -248,14 +250,16 @@
 
 //Contact
 
+
 .contact{
   background-color: #FBF2F2;
 
     .content_contact{
       margin:0 auto;
-      width: 636px;
-      padding-top: 80px;
-      padding-bottom: 80px;
+      box-sizing: border-box;
+      max-width: 660px;
+      padding: 80px 12px;
+      
     }
     h2{
       font-size: 48px;
@@ -305,11 +309,11 @@
       @include mobile(){
         width:100%;
       }
-
     }
   }
 
-//RWD
+
+
 
 
 
